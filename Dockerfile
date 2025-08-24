@@ -2,7 +2,7 @@ FROM itzg/minecraft-server:java24-graalvm
 # Set the Minecraft version (must match your modpack)
 ENV TYPE=FABRIC
 ENV EULA=TRUE
-ENV VERSION=1.21.5
+ENV VERSION=1.21.1
 
 ENV PACKWIZ_URL=https://pack.britanshritan.uk/pack.toml
 ENV INIT_MEMORY=16G
