@@ -5,7 +5,7 @@ ENV TYPE=FABRIC
 ENV EULA=TRUE
 ENV VERSION=1.21.5
 
-PACKWIZ_URL=https://pack.britanshritan.uk/pack.toml
+ENV PACKWIZ_URL=https://pack.britanshritan.uk/pack.toml
 
 # Command to run after server startup for pregeneration
 ENV SERVER_STARTUP_COMMAND="/usr/bin/rcon-cli dh pregen"
